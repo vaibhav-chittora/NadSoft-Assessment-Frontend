@@ -58,7 +58,7 @@ export default function EditStudent() {
                         onChange={handleChange}
                     />
                 </div>
-                <div className="mb-3">
+                {/* <div className="mb-3">
                     <label className="form-label">Roll Number</label>
                     <input
                         type="text"
@@ -67,7 +67,7 @@ export default function EditStudent() {
                         value={formData.rollNumber}
                         onChange={handleChange}
                     />
-                </div>
+                </div> */}
                 <button type="submit" className="btn btn-primary me-2">
                     Update
                 </button>
